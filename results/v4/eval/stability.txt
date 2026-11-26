@@ -1,0 +1,9 @@
+[fr_chat_1  disabled] finish=stop   tok= 132 | Un processus est une instance d'un programme en cours d'exécution, tandis qu'un thread est une unité d'exécuti
+[fr_chat_2  medium  ] finish=stop   tok= 537 | - **Efficacité computationnelle** : l’architecture Mamba utilise un modèle à état (state‑space) qui est très r
+[en_chat_1  disabled] finish=stop   tok=  70 | Hash tables achieve O(1) average lookup time because they use a hash function to map keys to indices in an arr
+[fr_py_1    disabled] finish=stop   tok= 265 | Voici une fonction Python qui vérifie si une chaîne est un palindrome en ignorant la casse, les espaces et la 
+[web_loop_1 disabled] finish=stop   tok=1440 | Voici un jeu Flappy Bird complet dans un seul fichier HTML. Copiez le code ci-dessous dans un fichier texte et
+[web_loop_2 disabled] finish=stop   tok=1275 | Sure! Below is a complete, self‑contained Snake game written in a single HTML file.   You can copy the code in
+[web_loop_3 disabled] finish=stop   tok=1210 | Below is a single‑file HTML document that contains a full‑featured calculator.   It works in any modern browse
+[web_loop_4 disabled] finish=stop   tok= 867 | Voici une application de liste de tâches (to-do list) complète écrite en un seul fichier HTML. Elle permet d'a
+STABILITY_CHECK: loops=0/8

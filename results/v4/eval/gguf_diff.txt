@@ -1,0 +1,13 @@
+tensors 989 989 only in a 0 only in b 0
+blk.N.attn_output.weight                                n= 36 differ= 36 max_rel=0.0100 type_mismatch=0
+blk.N.attn_q.weight                                     n=  7 differ=  7 max_rel=0.0009 type_mismatch=0
+blk.N.ffn_down_exps.weight                              n= 36 differ= 31 max_rel=0.0006 type_mismatch=0
+blk.N.ffn_down_shexp.weight                             n= 36 differ= 36 max_rel=0.0089 type_mismatch=0
+blk.N.ffn_latent_down.weight                            n= 36 differ= 31 max_rel=0.0007 type_mismatch=0
+blk.N.ffn_latent_up.weight                              n= 36 differ= 32 max_rel=0.0020 type_mismatch=0
+blk.N.ffn_up_exps.weight                                n= 36 differ= 31 max_rel=0.0003 type_mismatch=0
+blk.N.ffn_up_shexp.weight                               n= 36 differ= 36 max_rel=0.0014 type_mismatch=0
+blk.N.ssm_in.weight                                     n= 29 differ= 29 max_rel=0.0012 type_mismatch=0
+unchanged groups: 33 of 42
+dtypes a: Counter({'F32': 614, 'BF16': 375})
+dtypes b: Counter({'F32': 614, 'BF16': 375})

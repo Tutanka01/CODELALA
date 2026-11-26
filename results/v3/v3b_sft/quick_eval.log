@@ -1,0 +1,58 @@
+=== 1. GGUF weight diff vs base ===
+=== 2. Quick webgen (medium): 4 held-out apps x 2 samples ===
+flappy 0 stop 1309
+snake 1 stop 2162
+snake 0 stop 2273
+flappy 1 stop 2656
+todo 0 stop 2057
+todo 1 stop 1716
+calculator 1 stop 2396
+calculator 0 stop 4923
+flappy 0 FAIL 
+snake 1 FAIL ['ReferenceError: timer is not defined @103']
+snake 0 FAIL 
+flappy 1 FAIL TimeoutException()
+todo 0 PASS 
+todo 1 PASS 
+calculator 1 FAIL timeout: the page froze the browser
+calculator 0 PASS 
+QUICK_WEB [medium]: smoke=3/8 (38%) js_err=1 trunc=0 avg_tok=0 avg_plan_chars=4172
+  flappy_0: nonblank=True idle=0.00 inp=0.00 errs=[]
+  snake_1: nonblank=True idle=0.00 inp=0.34 errs=['ReferenceError: timer is not defined @103']
+  snake_0: nonblank=True idle=0.00 inp=0.00 errs=[]
+  flappy_1: nonblank=None idle=0.00 inp=0.00 errs=[]
+  todo_0: nonblank=True idle=0.00 inp=0.10 errs=[]
+  todo_1: nonblank=True idle=0.00 inp=0.07 errs=[]
+  calculator_1: nonblank=None idle=0.00 inp=0.00 errs=[]
+  calculator_0: nonblank=True idle=0.00 inp=2.92 errs=[]
+=== 3. Quick MBPP+ (medium): 20 Python tasks ===
+MBPP+ (medium): 17/20 (85.0%) | avg_tokens=1063
+=== 2. Quick webgen (disabled): 4 held-out apps x 2 samples ===
+flappy 0 stop 2004
+snake 1 stop 2815
+todo 1 stop 736
+todo 0 stop 2008
+calculator 1 stop 1498
+flappy 1 length 14000
+snake 0 length 14000
+calculator 0 length 14000
+flappy 0 FAIL ['TypeError: canvas.getContext is not a function @129']
+snake 1 FAIL 
+todo 1 FAIL 
+todo 0 FAIL ['TypeError: can\'t access property "addEventListener", document.getElementById(...) is null @222']
+calculator 1 PASS 
+flappy 1 FAIL 
+snake 0 FAIL 
+calculator 0 FAIL 
+QUICK_WEB [disabled]: smoke=1/8 (12%) js_err=2 trunc=3 avg_tok=0 avg_plan_chars=0
+  flappy_0: nonblank=True idle=0.00 inp=0.00 errs=['TypeError: canvas.getContext is not a function @129']
+  snake_1: nonblank=True idle=0.00 inp=0.00 errs=[]
+  todo_1: nonblank=True idle=0.00 inp=0.02 errs=[]
+  todo_0: nonblank=True idle=0.00 inp=0.00 errs=['TypeError: can\'t access property "addEventListener", document.getElementById(...) is null @222']
+  calculator_1: nonblank=True idle=0.00 inp=2.79 errs=[]
+  flappy_1: nonblank=None idle=0.00 inp=0.00 errs=[]
+  snake_0: nonblank=None idle=0.00 inp=0.00 errs=[]
+  calculator_0: nonblank=None idle=0.00 inp=0.00 errs=[]
+=== 3. Quick MBPP+ (disabled): 20 Python tasks ===
+MBPP+ (disabled): 17/20 (85.0%) | avg_tokens=242
+QUICK_EVAL_DONE v3b_sft

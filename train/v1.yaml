@@ -1,0 +1,34 @@
+# LoRA fine-tuning v1 with OVH's official script (ovhai_llm_sft_tutorial/sft/sft_lora.py)
+# on data/v1: long, complete answers selected from the public CodeFeedback dataset (Apache-2.0),
+# HTML documents checked in a headless browser, Python blocks syntax-checked.
+model_path: models/olala-hf
+output_dir: runs/v1
+
+train_files:
+  - data/v1/train.jsonl
+eval_files:
+  - data/v1/eval.jsonl
+
+max_length: 4096
+overlong: drop
+max_eval_samples: 40
+merge_when_done: true
+
+lora:
+  r: 32
+  alpha: 64
+  dropout: 0.05
+
+training:
+  num_train_epochs: 1
+  per_device_train_batch_size: 2
+  gradient_accumulation_steps: 8
+  learning_rate: 1.0e-4
+  warmup_steps: 10
+  logging_steps: 5
+  eval_strategy: steps
+  eval_steps: 50
+  per_device_eval_batch_size: 2
+  save_steps: 50
+  dataloader_num_workers: 0
+  report_to: []

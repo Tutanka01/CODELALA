@@ -1,0 +1,20 @@
+{
+  "model_path": "models/olala-hf",
+  "pairs_file": "data/v4/dpo_pairs.jsonl",
+  "output_dir": "runs/v4_py_dpo",
+  "epochs": 2.0,
+  "grad_accum": 8,
+  "lr": 3e-05,
+  "expert_lr": 3e-05,
+  "weight_decay": 0.05,
+  "beta": 2.5,
+  "rpo_alpha": 0.35,
+  "lora_r": 32,
+  "lora_alpha": 64,
+  "use_rslora": false,
+  "targets": "safe",
+  "expert_r": 8,
+  "expert_alpha": 16,
+  "max_length": 3072,
+  "seed": 42
+}

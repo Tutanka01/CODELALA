@@ -1,0 +1,15 @@
+{"id": "fr_chat_1", "effort": "disabled", "finish": "stop", "tokens": 132, "preview": "Un processus est une instance d'un programme en cours d'exécution, tandis qu'un thread est une unité d'exécution au sein d'un processus. Un processus possède sa propre mémoire et ses ressources, alors qu'un thread partage la mémoire et les "}
+
+{"id": "fr_chat_2", "effort": "medium", "finish": "stop", "tokens": 537, "preview": "- **Efficacité computationnelle** : l’architecture Mamba utilise un modèle à état (state‑space) qui est très rapide et peu gourmand en mémoire, ce qui permet d’entraîner et d’inférer des LLM à grande échelle sans surcharge de calcul.   - **"}
+
+{"id": "en_chat_1", "effort": "disabled", "finish": "stop", "tokens": 70, "preview": "Hash tables achieve O(1) average lookup time because they use a hash function to map keys to indices in an array, allowing direct access to the corresponding value. This structure minimizes the average number of comparisons needed to find a"}
+
+{"id": "fr_py_1", "effort": "disabled", "finish": "stop", "tokens": 265, "preview": "Voici une fonction Python qui vérifie si une chaîne est un palindrome en ignorant la casse, les espaces et la ponctuation :  ```python import re  def est_palindrome(s):     # Supprime les caractères non alphanumériques et convertit en minus"}
+
+{"id": "web_loop_1", "effort": "disabled", "finish": "stop", "tokens": 1440, "preview": "Voici un jeu Flappy Bird complet dans un seul fichier HTML. Copiez le code ci-dessous dans un fichier texte et ouvrez-le dans un navigateur pour jouer.  ```html <!DOCTYPE html> <html lang=\"fr\"> <head>     <meta charset=\"UTF-8\">     <meta na"}
+
+{"id": "web_loop_2", "effort": "disabled", "finish": "stop", "tokens": 1275, "preview": "Sure! Below is a complete, self‑contained Snake game written in a single HTML file.   You can copy the code into a file called `snake.html` and open it in any modern web browser.  ```html <!DOCTYPE html> <html lang=\"en\"> <head>     <meta ch"}
+
+{"id": "web_loop_3", "effort": "disabled", "finish": "stop", "tokens": 1210, "preview": "Below is a single‑file HTML document that contains a full‑featured calculator.   It works in any modern browser, supports the usual arithmetic operations, shows the current result, and lets you use the keyboard (numbers, decimal point, back"}
+
+{"id": "web_loop_4", "effort": "disabled", "finish": "stop", "tokens": 867, "preview": "Voici une application de liste de tâches (to-do list) complète écrite en un seul fichier HTML. Elle permet d'ajouter, de supprimer et de cocher des tâches, avec une interface simple et fonctionnelle.  ```html <!DOCTYPE html> <html lang=\"fr\""}

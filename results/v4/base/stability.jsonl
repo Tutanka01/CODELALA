@@ -1,0 +1,15 @@
+{"id": "fr_chat_1", "effort": "disabled", "finish": "stop", "tokens": 144, "preview": "Un processus est une instance d'un programme en cours d'exécution, avec son propre espace mémoire et ses ressources. Un thread est une unité d'exécution interne à un processus, partageant l'espace mémoire avec les autres threads du même pro"}
+
+{"id": "fr_chat_2", "effort": "medium", "finish": "stop", "tokens": 924, "preview": "- **Efficacité computationnelle** : Mamba utilise une modélisation d’état (state‑space) qui réduit la complexité temporelle, tandis que l’attention permet de capturer les relations importantes dans le texte, offrant ainsi une meilleure util"}
+
+{"id": "en_chat_1", "effort": "disabled", "finish": "stop", "tokens": 92, "preview": "Hash tables achieve average O(1) lookup time because they use a hash function to map keys to indices in an array, allowing direct access to the corresponding value without searching through all entries. This efficient mapping relies on the "}
+
+{"id": "fr_py_1", "effort": "disabled", "finish": "stop", "tokens": 686, "preview": "Voici une fonction Python qui vérifie si une chaîne est un palindrome en ignorant la casse, les espaces et la ponctuation :  ```python import re  def est_palindrome(s):     # Supprime les caractères non alphabétiques et convertit en minuscu"}
+
+{"id": "web_loop_1", "effort": "disabled", "finish": "stop", "tokens": 1383, "preview": "Voici un jeu Flappy Bird complet dans un seul fichier HTML, CSS et JavaScript. Copiez le code ci-dessous dans un fichier texte et ouvrez-le dans un navigateur web.  ```html <!DOCTYPE html> <html lang=\"fr\"> <head>     <meta charset=\"UTF-8\"> "}
+
+{"id": "web_loop_2", "effort": "disabled", "finish": "stop", "tokens": 1455, "preview": "Below is a complete, self‑contained HTML file that implements the classic **Snake** game.   You can copy the code into a file named `snake.html` and open it in any modern browser.  ```html <!DOCTYPE html> <html lang=\"en\"> <head>     <meta c"}
+
+{"id": "web_loop_3", "effort": "disabled", "finish": "length", "tokens": 4096, "preview": "Below is a single‑file HTML document that implements a simple calculator web app with full keyboard support (number keys, decimal point, “=”, “C”, “±”, “%”, “backspace”, “clear”, and arrow keys).   You can copy the code into a file named `c"}
+
+{"id": "web_loop_4", "effort": "disabled", "finish": "stop", "tokens": 918, "preview": "Voici un exemple complet d'application de liste de tâches (to-do list) écrite en HTML, CSS et JavaScript. Vous pouvez copier ce code dans un fichier `todo.html` et l'ouvrir dans un navigateur.  ```html <!DOCTYPE html> <html lang=\"fr\"> <head"}

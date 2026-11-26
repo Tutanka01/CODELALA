@@ -1,0 +1,22 @@
+{
+  "model_path": "models/olala-hf",
+  "train_file": "data/v3b/train.jsonl",
+  "eval_file": "data/v3b/eval.jsonl",
+  "output_dir": "runs/v3b_sft",
+  "epochs": 2.0,
+  "grad_accum": 16,
+  "lr": 4e-05,
+  "expert_lr": 5e-05,
+  "weight_decay": 0.05,
+  "warmup_ratio": 0.08,
+  "lora_r": 32,
+  "lora_alpha": 64,
+  "use_rslora": false,
+  "expert_r": 16,
+  "expert_alpha": 32,
+  "max_length": 4096,
+  "eval_steps": 20,
+  "save_steps": 30,
+  "seed": 42,
+  "no_merge": false
+}

@@ -1,0 +1,38 @@
+{
+  "webapps_total": 2645,
+  "webapps_prefilter": {
+    "no_or_short_code": 1425,
+    "too_long": 385,
+    "held_out_concept": 206,
+    "external_script": 170
+  },
+  "webapps_candidates": 459,
+  "webapps_browser": {
+    "ok": 412,
+    "probe_error": 38,
+    "js_error": 9
+  },
+  "webapps_kept": 342,
+  "webapps_tokens": 2119260,
+  "webapps_efforts": {
+    "low": 153,
+    "disabled": 173,
+    "medium": 16
+  },
+  "v1_subset": {
+    "other": 200,
+    "python": 350,
+    "js": 250,
+    "html": 400
+  },
+  "train": 1642,
+  "eval": 100,
+  "buckets": {
+    "webapp": 342,
+    "translation": 200,
+    "python": 350,
+    "js": 250,
+    "html": 400,
+    "other": 200
+  }
+}

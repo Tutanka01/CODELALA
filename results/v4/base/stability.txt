@@ -1,0 +1,9 @@
+[fr_chat_1  disabled] finish=stop   tok= 144 | Un processus est une instance d'un programme en cours d'exécution, avec son propre espace mémoire et ses resso
+[fr_chat_2  medium  ] finish=stop   tok= 924 | - **Efficacité computationnelle** : Mamba utilise une modélisation d’état (state‑space) qui réduit la complexi
+[en_chat_1  disabled] finish=stop   tok=  92 | Hash tables achieve average O(1) lookup time because they use a hash function to map keys to indices in an arr
+[fr_py_1    disabled] finish=stop   tok= 686 | Voici une fonction Python qui vérifie si une chaîne est un palindrome en ignorant la casse, les espaces et la 
+[web_loop_1 disabled] finish=stop   tok=1383 | Voici un jeu Flappy Bird complet dans un seul fichier HTML, CSS et JavaScript. Copiez le code ci-dessous dans 
+[web_loop_2 disabled] finish=stop   tok=1455 | Below is a complete, self‑contained HTML file that implements the classic **Snake** game.   You can copy the c
+[web_loop_3 disabled] finish=length tok=4096 | Below is a single‑file HTML document that implements a simple calculator web app with full keyboard support (n
+[web_loop_4 disabled] finish=stop   tok= 918 | Voici un exemple complet d'application de liste de tâches (to-do list) écrite en HTML, CSS et JavaScript. Vous
+STABILITY_CHECK: loops=1/8

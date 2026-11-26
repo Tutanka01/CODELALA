@@ -1,0 +1,43 @@
+{
+  "pillar_a": {
+    "raw": 153,
+    "unique_apps": 152,
+    "kept_rows": 247,
+    "dropped_overlong": 6,
+    "efforts": {
+      "medium": 109,
+      "disabled": 100,
+      "low": 38
+    },
+    "train_with_repeat": 211,
+    "eval": 36
+  },
+  "pillar_b1_kodcode": 0,
+  "pillar_b2_codefeedback": {
+    "total": 470,
+    "langs": {
+      "sql": 50,
+      "python": 120,
+      "javascript": 180,
+      "typescript": 90,
+      "rust": 30
+    }
+  },
+  "pillar_c_anchor": 259,
+  "train": 905,
+  "eval": 71,
+  "train_tokens_total": 1058213,
+  "train_tokens_mean": 1169,
+  "train_tokens_max": 4073,
+  "buckets": {
+    "cf_javascript": 167,
+    "webapp_direct": 85,
+    "cf_python": 117,
+    "anchor_general": 76,
+    "webapp": 126,
+    "anchor_translation": 173,
+    "cf_sql": 48,
+    "cf_rust": 29,
+    "cf_typescript": 84
+  }
+}
